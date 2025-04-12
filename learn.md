@@ -373,5 +373,7 @@ asmlinkage long sys_read(const struct pt_regs *regs)
 }
 ```
 Звичайно, справжній ```sys_read``` не потребує цього, оскільки ядро робить цю роботу за нас. Але нам потрібно буде обробляти аргументи таким чином, коли ми пишемо функцію-перехоплювач.
-
+Посилання на сайт з хорошою базовою інформацією по руткітам https://xcellerator.github.io/tags/rootkit/ 
+Посилання на гіт з гарними прикладами руткітів https://github.com/xcellerator/linux_kernel_hacking
+Посилання на руткіт діаморфін https://github.com/m0nad/Diamorphine 
 
