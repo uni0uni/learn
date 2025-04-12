@@ -1,0 +1,1 @@
+cmd_/home/user/Desktop/learn/rootkits-essay/0_basics/3_device_file/modules.order := {   echo /home/user/Desktop/learn/rootkits-essay/0_basics/3_device_file/main.ko; :; } | awk '!x[$$0]++' - > /home/user/Desktop/learn/rootkits-essay/0_basics/3_device_file/modules.order

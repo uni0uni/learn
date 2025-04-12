@@ -1,0 +1,1 @@
+cmd_/home/user/Desktop/learn/rootkits-essay/0_basics/3_device_file/Module.symvers := sed 's/\.ko$$/\.o/' /home/user/Desktop/learn/rootkits-essay/0_basics/3_device_file/modules.order | scripts/mod/modpost -m -a  -o /home/user/Desktop/learn/rootkits-essay/0_basics/3_device_file/Module.symvers -e -i Module.symvers   -T -

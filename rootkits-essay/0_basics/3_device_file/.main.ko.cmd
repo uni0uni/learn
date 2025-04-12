@@ -1,0 +1,1 @@
+cmd_/home/user/Desktop/learn/rootkits-essay/0_basics/3_device_file/main.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/user/Desktop/learn/rootkits-essay/0_basics/3_device_file/main.ko /home/user/Desktop/learn/rootkits-essay/0_basics/3_device_file/main.o /home/user/Desktop/learn/rootkits-essay/0_basics/3_device_file/main.mod.o;  true
